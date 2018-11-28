@@ -25,6 +25,14 @@ and in case they are satisfied with the answer it is used if the same query
 is asked again, otherwise the answer is filtered out from the list of possible
 answers the bot can generate.
 
+## Run instructions
+
+First ensure you have `pipenv` installed: `pip install pipenv`. Then run
+`pipenv install` to create a virtual environment and install the dependencies for this project.
+
+The bot itself is executed inside the virtual environment as follows:
+`python main.py`
+
 ### Technologies used
 
 1. Python 3.6 [https://www.python.org/]
