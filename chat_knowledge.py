@@ -1,4 +1,4 @@
-from chatbot import chat_data_manipulation
+import chat_data_manipulation
 from chatterbot_corpus import corpus
 
 

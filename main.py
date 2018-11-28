@@ -1,5 +1,9 @@
-from chatbot import chat_parser, chat_planning, chat_feedback, chat_acquired_knowledge, chat_knowledge
 import pathlib
+
+import chat_acquired_knowledge
+import chat_feedback
+import chat_parser
+import chat_planning
 
 db_file = "chatbot.db"
 

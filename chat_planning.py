@@ -1,4 +1,5 @@
-from chatbot import chat_knowledge, chat_acquired_knowledge
+import chat_acquired_knowledge
+import chat_knowledge
 
 # we load in the chatterbot corpus to use with the conversational queries
 conversation_corpus = chat_knowledge.load_conversation_corpus()
